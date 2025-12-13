@@ -38,10 +38,11 @@
     --menu-color: #353430;
     --menu-hover-border: rgba(50, 49, 45, 0.4);
     --background-image: url('../images/cover-image-light.png');
-    --article_link-shadow: 2px 2px 0 var(--accent-shadow);
+    --link-shadow: 2px 2px 0 var(--accent-shadow);
   }
   
   :root:not(.theme-light):not(.theme-dark) .header__rec {
     display: none;
   }
 }
+

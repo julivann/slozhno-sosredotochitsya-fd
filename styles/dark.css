@@ -19,7 +19,7 @@
   --menu-color: #FF0070;
   --menu-hover-border: rgba(255, 0, 112, 0.4);
   --background-image: url('../images/cover-image-dark.png');
-  --article_link-shadow: 2px 2px 0 var(--accent-shadow);
+  --link-shadow: 2px 2px 0 var(--accent-shadow);
 }
 
 .theme-dark .header__rec {
@@ -27,7 +27,7 @@
   position: absolute;
   right: 40px;
   color: var(--accent-color);
-  font-size: 18px;
+  font-size: var(--main-font-size);
   line-height: 25px;
   text-transform: uppercase;
   z-index: 1;
@@ -64,9 +64,9 @@
     display: block;
     position: absolute;
     top: 10px;
-    right: 48px;
+    right: 40px;
     color: var(--accent-color);
-    font-size: 18px;
+    font-size: var(--main-font-size);
     line-height: 25px;
     text-transform: uppercase;
     z-index: 1;

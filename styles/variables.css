@@ -12,4 +12,5 @@
   --menu-hover-border: rgba(255, 0, 112, 0.4);
   --background-image: url('../images/cover-image-dark.png');
   --link-shadow: 2px 2px 0 var(--accent-shadow);
+  --decorated-zone: #FF0070;
 }

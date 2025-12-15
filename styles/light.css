@@ -20,6 +20,7 @@
   --menu-hover-border: rgba(50, 49, 45, 0.4);
   --background-image: url('../images/cover-image-light.png');
   --link-shadow: 2px 2px 0 var(--accent-shadow);
+  --decorated-zone: #353430;
 }
 
 .theme-light .header__rec {
@@ -39,6 +40,7 @@
     --menu-hover-border: rgba(50, 49, 45, 0.4);
     --background-image: url('../images/cover-image-light.png');
     --link-shadow: 2px 2px 0 var(--accent-shadow);
+    --decorated-zone: #353430;
   }
   
   :root:not(.theme-light):not(.theme-dark) .header__rec {

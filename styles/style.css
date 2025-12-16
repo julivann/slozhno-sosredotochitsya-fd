@@ -219,7 +219,7 @@
   background-color: var(--accent-color);
 }
 
-.article article-advice {
+.article .article-advice {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -227,6 +227,7 @@
 
 .article__content {
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
